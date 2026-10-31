@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pokehome",
+  "version": "${version}",
+  "name": "Poke Home",
+  "description": "Server side homes: /sethome [name], /home [name], /delhome <name>, /homes (up to 3 per player, not during battles). Clients do not need this mod.",
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "kr.pokehome.PokeHome"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "cobblemon": ">=1.7.0"
+  }
+}
